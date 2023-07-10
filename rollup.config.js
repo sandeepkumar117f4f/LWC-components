@@ -2,6 +2,7 @@ import lwc from '@lwc/rollup-plugin';
 import replace from '@rollup/plugin-replace';
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
+import sld from "@salesforce-ux/design-system/assets";
 
 const __ENV__ = process.env.NODE_ENV ?? 'development';
 
